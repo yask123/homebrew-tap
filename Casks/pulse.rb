@@ -5,7 +5,7 @@ cask "pulse" do
   url "https://github.com/yask123/pulse/releases/download/v#{version}/Pulse-#{version}.zip"
   name "Pulse"
   desc "Menu bar system monitor for Apple Silicon Macs"
-  homepage "https://pulse-menubar.vercel.app/"
+  homepage "https://yask.dev/pulse"
 
   livecheck do
     url :url
