@@ -18,9 +18,12 @@ cask "pulse" do
   app "Pulse.app"
 
   # Pulse is ad-hoc signed, not notarized.
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/Pulse.app"]
+  postflight_steps(default_base: :appdir) do
+    run "/usr/bin/xattr",
+        args:           ["-dr", "com.apple.quarantine", "Pulse.app"],
+        chdir:          ".",
+        writable_paths: ["Pulse.app"],
+        must_succeed:   false
   end
 
   uninstall quit: "com.yask.pulse"
