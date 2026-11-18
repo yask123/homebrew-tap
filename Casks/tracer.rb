@@ -2,7 +2,7 @@ cask "tracer" do
   version "0.9.2"
   sha256 "94eedafa6f9204cd0ca14c543039e80e1fa6c1183b03bfb566607ef2f0b41cdf"
 
-  url "https://github.com/yask123/fathom/releases/download/v#{version}/Tracer.dmg"
+  url "https://github.com/yask123/tracer/releases/download/v#{version}/Tracer.dmg"
   name "Tracer"
   desc "Draws a pull request as one line through the system it changes"
   homepage "https://yask.dev/tracer"
