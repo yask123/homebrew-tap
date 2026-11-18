@@ -1,6 +1,6 @@
 cask "tracer" do
-  version "0.9.2"
-  sha256 "94eedafa6f9204cd0ca14c543039e80e1fa6c1183b03bfb566607ef2f0b41cdf"
+  version "0.9.3"
+  sha256 "8421746892672b053c97a483a457cb8a98253f316ef88dc0182025d573a1975c"
 
   url "https://github.com/yask123/tracer/releases/download/v#{version}/Tracer.dmg"
   name "Tracer"
