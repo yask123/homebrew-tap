@@ -8,6 +8,7 @@ brew install yask123/tap/<name>
 
 | Name | Kind | Description |
 |---|---|---|
+| [code](https://yask.dev/code) | cask | Quiet code editor built on Neovim |
 | [pulse](https://github.com/yask123/pulse) | cask | Menu bar system monitor for Apple Silicon Macs |
 | [tracer](https://yask.dev/tracer) | cask | Draws a pull request as one line through the system it changes |
 | [mono-safari](https://yask.dev/mono) | cask | Quiet, terminal-style reading view for X in Safari |
